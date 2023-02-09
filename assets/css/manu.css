@@ -2,6 +2,10 @@
   border: solid 1px black;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32c909da1ecd2dca8175d2e4b3cc2a571a048854
 .main-title {
   margin: auto;
   width: 200px;
@@ -11,25 +15,49 @@
 
 .cover {
   height: 500px;
-  background-image: url(../pan/cover.jpeg);
+  background-image: url(../../pan/menu_cover.jpg);
 }
 
+<<<<<<< HEAD
 .block-3 {
+=======
+
+.block-1 {
+>>>>>>> 32c909da1ecd2dca8175d2e4b3cc2a571a048854
   width: 100%;
   max-width: 800px;
   height: 100%;
   min-height: 200px;
   margin: 2em auto 0;
   border: 5px solid #bbb;
+<<<<<<< HEAD
 }
 
 .block-2 {
+=======
+  background: #d8bebe;
+}
+
+
+
+.block-2 {
+
+>>>>>>> 32c909da1ecd2dca8175d2e4b3cc2a571a048854
   width: 100%;
   max-width: 800px;
   height: 100%;
   min-height: 200px;
   margin: 2em auto 0;
   border: 5px solid #bbb;
+<<<<<<< HEAD
+=======
+
+  background: #b3b4e6;
+}
+
+.block-2 img {
+  margin-left: 70%;
+>>>>>>> 32c909da1ecd2dca8175d2e4b3cc2a571a048854
 }
 
 .block-3 {
@@ -39,4 +67,8 @@
   min-height: 200px;
   margin: 2em auto 0;
   border: 5px solid #bbb;
+<<<<<<< HEAD
+=======
+  background: #bae6b6;
+>>>>>>> 32c909da1ecd2dca8175d2e4b3cc2a571a048854
 }/*# sourceMappingURL=manu.css.map */
