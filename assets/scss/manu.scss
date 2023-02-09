@@ -1,6 +1,7 @@
-*{
-    border: solid 1px black;
+* {
+  border: solid 1px black;
 }
+
 .main-title {
   margin: auto;
   width: 200px;
@@ -8,12 +9,12 @@
   justify-content: center;
 }
 
-.cover{
+.cover {
   height: 500px;
-  background-image: url(../pan/cover.jpeg);
+  background-image: url(../../pan/menu_cover.jpg);
 }
 
-@mixin baseBlock{
+@mixin baseBlock {
   width: 100%;
   max-width: 800px;
   height: 100%;
@@ -22,17 +23,21 @@
   border: 5px solid #bbb;
 }
 
-.block-3 {
+.block-1 {
   @include baseBlock;
 
 }
 
 .block-2 {
   @include baseBlock;
- 
+  img {
+    margin-left: 70% ;
+    // transform:rotate(45deg);
+  }
+
 }
 
 .block-3 {
   @include baseBlock;
 
-  }
+}

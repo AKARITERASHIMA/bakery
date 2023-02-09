@@ -11,10 +11,10 @@
 
 .cover {
   height: 500px;
-  background-image: url(../pan/cover.jpeg);
+  background-image: url(../../pan/menu_cover.jpg);
 }
 
-.block-3 {
+.block-1 {
   width: 100%;
   max-width: 800px;
   height: 100%;
@@ -30,6 +30,9 @@
   min-height: 200px;
   margin: 2em auto 0;
   border: 5px solid #bbb;
+}
+.block-2 img {
+  margin-left: 70%;
 }
 
 .block-3 {
