@@ -1,65 +1,88 @@
-*
-    margin: 0
-    padding: 0
-    box-sizing: border-box
-    font-family: 'Noto Sans JP', sans-serif
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
 // .wrapper {
 //     max-width: 1200px;
 //     margin: 0 auto;
 // }
 
-    header
-        width: 100%
-        height: 100vw
-        background-image: url(./pan/kv1.jpg)
-        background-position: center
-        background-size: cover
-        background-repeat: no-repeat
-        position: relative
 
-nav
-    width: 100%
-    padding: 20px 0
-    position: fixed
-    display: flex
-    align-items: center
-    justify-content: space-between
-    z-index: 3
-    background-color: rgba(0, 0, 0, 0.7)
-    position: absolute
 
-.logo
+
+.kv {
+    background-image: url(../pan/kv1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vw;
+    position: relative;
+}
+
+.header{
+    position: absolute;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.logo {
     // margin: 0 auto 20px auto;
-    cursor: pointer
-    font-size: 3rem
-    font-weight: 450
-    color: white
-    padding-left: 50px
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: 450;
+    color: white;
+    padding-left: 50px;
+}
 
-.menu
-    display: flex
-    justify-content: space-between
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
 
-nav ul li
-    display: inline-block
-    list-style: none
-    margin: 20px 30px
 
-nav ul li a
-    text-decoration: none
-    color: white
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
 
-nav.sticky
-    position: fixed
-    left: 0
-    top: 0
-    color: black
-    background-color: rgb(148 99 41 / 62%)
-    display: flex
-    align-items: center
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav.sticky {
+
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: black;
+    background-color: rgb(148 99 41 / 62%);
+    display: flex;
+    align-items: center;
     // padding: 5px 3%;
-    transition: 0.6s
+    transition: 0.6s;
 
-nav.sticky ul
-    background-color: transparent
+}
+
+nav.sticky ul {
+    background-color: transparent;
+}

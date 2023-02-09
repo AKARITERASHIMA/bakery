@@ -1,1 +1,33 @@
-/*# sourceMappingURL=manu.css.map */
+* {
+  border: solid 1px black;
+}
+
+.block01 {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  min-height: 200px;
+  margin: 2em auto 0;
+  border: 5px solid #bbb;
+  background: #d8bebe;
+}
+
+.block02 {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  min-height: 200px;
+  margin: 2em auto 0;
+  border: 5px solid #bbb;
+  background: #b3b4e6;
+}
+
+.block03 {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  min-height: 200px;
+  margin: 2em auto 0;
+  border: 5px solid #bbb;
+  background: #bae6b6;
+}/*# sourceMappingURL=manu.css.map */
