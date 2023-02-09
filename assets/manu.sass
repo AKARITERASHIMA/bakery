@@ -1,0 +1,27 @@
+*{
+    border: solid 1px black;
+}
+
+@mixin baseBlock {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  min-height: 200px;
+  margin: 2em auto 0;
+  border: 5px solid #bbb;
+}
+
+.block01 {
+  @include baseBlock;
+  background: #d8bebe;
+}
+
+.block02 {
+  @include baseBlock;
+  background: #b3b4e6;
+}
+
+.block03 {
+  @include baseBlock;
+  background: #bae6b6;
+  }
