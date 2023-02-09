@@ -6,8 +6,7 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
-.kv {
-  background-image: url(../pan/kv1.jpg);
+.slider div {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,16 +14,29 @@
   height: 100vw;
 }
 
+.slider div .img01 {
+  background-image: url(../../pan/kv2.jpg);
+}
+
+.slider div .img02 {
+  background-image: url(../../pan/kv1\ 2.jpg);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
 nav {
   width: 100%;
   padding: 20px 0;
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 3;
   background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
 }
 
 .logo {

@@ -2,9 +2,6 @@
   border: solid 1px black;
 }
 
-<<<<<<< HEAD
-.block01 {
-=======
 .main-title {
   margin: auto;
   width: 200px;
@@ -18,47 +15,28 @@
 }
 
 .block-3 {
->>>>>>> 0ad2b693e0fa9e310f60897e704828e42c51b98a
   width: 100%;
   max-width: 800px;
   height: 100%;
   min-height: 200px;
   margin: 2em auto 0;
   border: 5px solid #bbb;
-<<<<<<< HEAD
-  background: #d8bebe;
-}
-
-.block02 {
-=======
 }
 
 .block-2 {
->>>>>>> 0ad2b693e0fa9e310f60897e704828e42c51b98a
   width: 100%;
   max-width: 800px;
   height: 100%;
   min-height: 200px;
   margin: 2em auto 0;
   border: 5px solid #bbb;
-<<<<<<< HEAD
-  background: #b3b4e6;
-}
-
-.block03 {
-=======
 }
 
 .block-3 {
->>>>>>> 0ad2b693e0fa9e310f60897e704828e42c51b98a
   width: 100%;
   max-width: 800px;
   height: 100%;
   min-height: 200px;
   margin: 2em auto 0;
   border: 5px solid #bbb;
-<<<<<<< HEAD
-  background: #bae6b6;
-=======
->>>>>>> 0ad2b693e0fa9e310f60897e704828e42c51b98a
 }/*# sourceMappingURL=manu.css.map */
