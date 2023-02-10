@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["../scss/manu.scss"],"names":[],"mappings":"AAAA;EACI;;;AAEJ;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;;;AAYF;EARE;EACA;EACA;EACA;EACA;EACA;;;AAQF;EAbE;EACA;EACA;EACA;EACA;EACA;;;AAaF;EAlBE;EACA;EACA;EACA;EACA;EACA","file":"manu.css"}
-=======
-<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../scss/manu.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;;;AAYF;EARE;EACA;EACA;EACA;EACA;EACA;;;AAQF;EAbE;EACA;EACA;EACA;EACA;EACA;;AAUA;EACE;;;AAMJ;EAtBE;EACA;EACA;EACA;EACA;EACA","file":"manu.css"}
-=======
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["../manu.scss"],"names":[],"mappings":"AAAA;EACI;;;AAYJ;EARE;EACA;EACA;EACA;EACA;EACA;EAKA;;;AAGF;EAbE;EACA;EACA;EACA;EACA;EACA;EAUA;;;AAGF;EAlBE;EACA;EACA;EACA;EACA;EACA;EAeA","file":"manu.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["../manu.scss"],"names":[],"mappings":"AAAA;EACI;;;AAEJ;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;;;AAYF;EARE;EACA;EACA;EACA;EACA;EACA;;;AAQF;EAbE;EACA;EACA;EACA;EACA;EACA;;;AAaF;EAlBE;EACA;EACA;EACA;EACA;EACA","file":"manu.css"}
->>>>>>> 0ad2b693e0fa9e310f60897e704828e42c51b98a
->>>>>>> 660038c7a287920267b7975daf151feba85f339e
->>>>>>> 32c909da1ecd2dca8175d2e4b3cc2a571a048854
