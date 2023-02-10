@@ -22,8 +22,8 @@
   content: "";
   width: 20px;
   height: 20px;
-  border-bottom: solid 2px #fff;
-  border-right: solid 2px #fff;
+  border-bottom: solid 5px #fff;
+  border-right: solid 5px #fff;
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -35,8 +35,8 @@
   content: "";
   width: 20px;
   height: 20px;
-  border-bottom: solid 2px #fff;
-  border-right: solid 2px #fff;
+  border-bottom: solid 5px #fff;
+  border-right: solid 5px #fff;
   position: absolute;
   top: 50%;
   right: 30px;
