@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     // border: 1px solid black;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
+// kv設定
 .kv_container {
     width: 100%;
     overflow-x: hidden;
     position: relative;
+    color: white;
 }
 
 .slide-container {
@@ -57,28 +59,61 @@
     height: auto;
 }
 
-
-
-
-
-
+// ヘッダー
 .header {
+    height: 100px;
+    width: 100%;
+    padding: 0px 15px;
+    background-color: rgb(27 36 38 / 76%);
     position: fixed;
-    width: 100%;
-    z-index: 1;
     top: 0;
-    left: 0;
+    z-index: 10;
+
+
+    .header_inner {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .logo {
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        line-height: 60px;
+        padding: 0 20px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+
+    .pc {
+        margin: 0 0 0 auto;
+
+        .menu .top_btn {
+            border-radius: 5%;
+            color: #222;
+            border: 1px solid #222;
+            padding: 0.5em 1.5em;
+            background-color: #fff;
+        }
+    }
+
+    .sm {
+        display: none;
+    }
 }
 
-nav {
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.7);
-
+.header.change-color {
+    background-color: rgb(183 97 25 / 59%);
+    transition: all 0.8s;
 }
+
 
 .logo {
     // margin: 0 auto 20px auto;
@@ -100,18 +135,14 @@ nav ul li {
     list-style: none;
     margin: 20px 30px;
 
-}
-
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 
 }
 
 nav.sticky {
-
-
     position: fixed;
     left: 0;
     top: 0;
@@ -122,8 +153,85 @@ nav.sticky {
     // padding: 5px 3%;
     transition: 0.6s;
 
+    ul {
+        background-color: transparent;
+    }
 }
 
-nav.sticky ul {
-    background-color: transparent;
+
+@media (max-width: 900px) {
+
+    #hamburger {
+        background-color: transparent;
+        position: relative;
+        cursor: pointer;
+        margin: 0 0 0 auto;
+        height: 60px;
+        width: 60px;
+    }
+
+
+    .pc {
+        display: none;
+    }
+
+    .icon span {
+        position: absolute;
+        left: 15px;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        border-radius: 5px;
+        transition: ease 0.75s;
+    }
+
+    .icon span:nth-of-type(1) {
+        top: 16px;
+    }
+
+    .icon span:nth-of-type(2) {
+        top: 28px;
+    }
+
+    .icon span:nth-of-type(3) {
+        bottom: 16px;
+    }
+
+    .close span:nth-of-type(1) {
+        transform: rotate(45deg);
+        top: 28px;
+    }
+
+    .close span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .close span:nth-of-type(3) {
+        transform: rotate(-45deg);
+        top: 28px;
+    }
+
+    .sm {
+        top: 100px;
+        left: 0px;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-color: rgb(183 97 25 / 59%);
+    }
+
+    .sm li {
+        padding-top: 10px;
+    }
+
+    .sm li:last-child {
+        padding-bottom: 17px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
 }

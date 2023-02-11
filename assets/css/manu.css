@@ -10,6 +10,7 @@
   background-image: url(../../pan/menu_cover.jpg);
 }
 
+<<<<<<< HEAD
 .block-1 .box-1 {
   display: flex;
   justify-content: space-evenly;
@@ -28,4 +29,35 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+=======
+.block-1 {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 200px;
+  margin: 2em auto 0;
+}
+.block-1 .box-1 {
+  text-align: end;
+  margin-right: 300px;
+}
+
+.block-2 {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 200px;
+  margin: 2em auto 0;
+}
+.block-2 img {
+  margin-left: 70%;
+}
+
+.block-3 {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 200px;
+  margin: 2em auto 0;
+>>>>>>> e2c3c651ac19155fc96e8c7275c95bfd8e1ec543
 }/*# sourceMappingURL=manu.css.map */
