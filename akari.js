@@ -6,6 +6,15 @@ $(function () {
             $(".header").removeClass("change-color");
         }
     })
+
+
+    $(window).on("scroll", function() {
+        if ($(this).scrollTop() > 100) {
+            $(".sns").fadeIn(800);
+            } else {
+            $(".sns").fadeOut(800);
+        }
+    });
     })
 
 
