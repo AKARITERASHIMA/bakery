@@ -1,50 +1,184 @@
-// * {
-//   border: solid 1px black;
-// }
+body {
+  margin: 0;
+  padding: 0;
+ }
 
-.menu,.main-title {
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Lobster&display=swap');
+
+.menu,
+.main-title {
   margin: auto;
-  width: 200px;
+  width: 100px;
   display: flex;
   justify-content: center;
   font-size: 60px;
 }
 
-.cover {
-  background-image: url(../../pan/menu_cover.jpg);
+body {
+  background-image: url(../../pan/paulina-milde-jachowska-m6OzmW0GrPk-unsplash.jpg);
+
+  #cover {
+    font-family: 'Babylonica', cursive;
+    height: 20%;
+    background-color: rgba(235, 235, 225, 0.54);
+  }
+
+  #cover.invert {
+    background-color: #b1997578;
+  }
 }
 
 @mixin baseBlock {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 30px;
+  font-family: "Kokoro";
+  color: aliceblue;
+}
+@mixin font-setting {
+  font-family: "Sawarabi Mincho";
+  font-size: 15px;
+}
+figcaption{
+
+
+.caption{
+ @include font-setting;
+}
+.plaice{
+  @include font-setting;
+  text-align: end
+}
 }
 
-.block-1 {
+.box-1 {
+  @include baseBlock;
+  margin-left: -15%;
+
+}
+
+.box-2 {
+  @include baseBlock;
+  flex-direction: row-reverse;
+  // transform:rotate(45deg);
+}
+
+.box-3 {
+  @include baseBlock;
+
+}
+
+
+.single{
+  font-family: 'Babylonica', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+
+.box-caption{
+  @include font-setting;
+  color: aliceblue;
+}
+}
+/* レイアウトや見た目のスタイル */
+/* ---------------------------- */
+
+// .single-item + .single-item{
+//   margin: 100px;
+// }
+/* アニメーションスタイル */
+/* ---------------------------- */
+
+/* アニメーション前 */
+.u-fade-type-up{
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+/* トリガー発火でis-activeを付与 */
+.u-fade-type-up.is-active{
+  transition: 7s;
+  transform: translateY(0);
+  opacity: 1;
+  text-align: center;
+}
+
+
+
+// フツーにcssですまぬ
+
+
+iframe{
+  width: 400px;
+  height: 400px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #4b5564;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  padding: 2rem;
+  font-size: 15px;
+  color: #000000;
+  background: #fff;
+
+.footer__navi-heading {
+  font-weight: 600;
   
-
-  .box-1 {
-    @include baseBlock;
-    margin-left: -15%;
-  }
 }
 
-
-.block-2 {
- 
-
-  .box-2 {
-    @include baseBlock;
-    flex-direction: row-reverse;
-    // transform:rotate(45deg);
-  }
-
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
 }
 
-.block-3 {
+.footer__navi li {
+  margin-bottom: 0.75rem;
+}
 
-  .box-3 {
-    @include baseBlock;
+.footer__address {
+  margin-bottom: 2rem;
+}
 
+.footer__address a {
+  text-decoration: underline;
+}
+
+  .md-justify-between {
+    justify-content: space-between;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .footer__address a {
+    text-decoration: none;
+    pointer-events: none;
   }
 }
