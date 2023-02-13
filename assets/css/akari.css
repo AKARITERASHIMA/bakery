@@ -332,7 +332,6 @@ figcaption .plaice {
   align-items: center;
   font-size: 30px;
   font-family: "Kokoro";
-  color: aliceblue;
   margin-left: -15%;
 }
 
@@ -342,7 +341,6 @@ figcaption .plaice {
   align-items: center;
   font-size: 30px;
   font-family: "Kokoro";
-  color: aliceblue;
   flex-direction: row-reverse;
 }
 
@@ -352,19 +350,16 @@ figcaption .plaice {
   align-items: center;
   font-size: 30px;
   font-family: "Kokoro";
-  color: aliceblue;
 }
 
 .single {
   font-family: "Babylonica", cursive;
   text-align: center;
   font-size: 60px;
-  color: aliceblue;
 }
 .single .box-caption {
   font-family: "Sawarabi Mincho";
   font-size: 15px;
-  color: aliceblue;
 }
 
 /* レイアウトや見た目のスタイル */

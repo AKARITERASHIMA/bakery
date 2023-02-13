@@ -406,7 +406,7 @@ body {
     align-items: center;
     font-size: 30px;
     font-family: "Kokoro";
-    color: aliceblue;
+    // color: #222;
 }
 
 @mixin font-setting {
@@ -449,11 +449,11 @@ figcaption {
     font-family: 'Babylonica', cursive;
     text-align: center;
     font-size: 60px;
-    color: aliceblue;
+    // color: aliceblue;
 
     .box-caption {
         @include font-setting;
-        color: aliceblue;
+        // color: aliceblue;
     }
 }
 

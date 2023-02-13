@@ -74,7 +74,7 @@ figcaption .plaice {
 .single .box-caption {
   font-family: "Sawarabi Mincho";
   font-size: 15px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 
 /* レイアウトや見た目のスタイル */
