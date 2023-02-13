@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Lobster&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -56,7 +58,7 @@
   height: auto;
 }
 
-.header {
+#header1 {
   height: 100px;
   width: 100%;
   padding: 0px 15px;
@@ -65,38 +67,38 @@
   top: 0;
   z-index: 10;
 }
-.header .header_inner {
+#header1 .header_inner {
   display: flex;
   align-items: center;
   height: 100px;
   width: 100%;
 }
-.header .logo {
+#header1 .logo {
   color: #ffffff;
   text-decoration: none;
   display: block;
   line-height: 60px;
   padding: 0 20px;
 }
-.header .logo a {
+#header1 .logo a {
   text-decoration: none;
   color: white;
 }
-.header .pc {
+#header1 .pc {
   margin: 0 0 0 auto;
 }
-.header .pc .menu .top_btn {
+#header1 .pc .menu2 .top_btn {
   border-radius: 5%;
   color: #222;
   border: 1px solid #222;
   padding: 0.5em 1.5em;
   background-color: #fff;
 }
-.header .sm {
+#header1 .sm {
   display: none;
 }
 
-.header.change-color {
+#header1.change-color {
   background-color: rgba(183, 97, 25, 0.59);
   transition: all 0.8s;
 }
@@ -109,7 +111,7 @@
   padding-left: 50px;
 }
 
-.menu {
+.menu2 {
   display: flex;
   justify-content: space-between;
 }
@@ -205,7 +207,7 @@ nav.sticky ul {
 
 .sns {
   position: fixed;
-  bottom: 30px;
+  bottom: 60px;
   left: 100px;
 }
 .sns .size {
@@ -230,13 +232,6 @@ nav.sticky ul {
 }
 
 @media (max-width: 900px) {
-  .about_container {
-    flex-direction: column;
-    width: 100%;
-  }
-  .about_container .aboutbox {
-    width: 100vw;
-  }
   #hamburger {
     background-color: transparent;
     position: relative;
@@ -296,4 +291,161 @@ nav.sticky ul {
   ul {
     flex-direction: column;
   }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu,
+.main-title {
+  margin: auto;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+#cover {
+  font-family: "Babylonica", cursive;
+  height: 20%;
+  background-color: rgba(235, 235, 225, 0.54);
+}
+
+#cover.invert {
+  background-color: rgba(177, 153, 117, 0.4705882353);
+}
+
+figcaption .caption {
+  font-family: "Sawarabi Mincho";
+  font-size: 15px;
+}
+figcaption .plaice {
+  font-family: "Sawarabi Mincho";
+  font-size: 15px;
+  text-align: end;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Kokoro";
+  color: aliceblue;
+  margin-left: -15%;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Kokoro";
+  color: aliceblue;
+  flex-direction: row-reverse;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Kokoro";
+  color: aliceblue;
+}
+
+.single {
+  font-family: "Babylonica", cursive;
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+}
+.single .box-caption {
+  font-family: "Sawarabi Mincho";
+  font-size: 15px;
+  color: aliceblue;
+}
+
+/* レイアウトや見た目のスタイル */
+/* ---------------------------- */
+/* アニメーションスタイル */
+/* ---------------------------- */
+/* アニメーション前 */
+.u-fade-type-up {
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+/* トリガー発火でis-activeを付与 */
+.u-fade-type-up.is-active {
+  transition: 7s;
+  transform: translateY(0);
+  opacity: 1;
+  text-align: center;
+}
+
+iframe {
+  width: 400px;
+  height: 400px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #4b5564;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  padding: 2rem;
+  font-size: 15px;
+  color: #000000;
+  background: #fff;
+}
+.footer .footer__navi-heading {
+  font-weight: 600;
+}
+.footer .footer__logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.footer .footer__navi li {
+  margin-bottom: 0.75rem;
+}
+.footer .footer__address {
+  margin-bottom: 2rem;
+}
+.footer .footer__address a {
+  text-decoration: underline;
+}
+.footer .md-justify-between {
+  justify-content: space-between;
+}
+.footer .grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.footer .footer__address a {
+  text-decoration: none;
+  pointer-events: none;
 }/*# sourceMappingURL=akari.css.map */
